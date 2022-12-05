@@ -1,0 +1,31 @@
+.modal-content{
+    background-color: #ffffff96 !important;
+    backdrop-filter: blur(5px) !important;
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px !important;
+    >div {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        >div {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            >p{
+                margin: 0px;
+
+            }
+        }
+    }
+    .ModalInfo{
+        width: 60%;
+        margin-top: 30px;
+    }
+}
