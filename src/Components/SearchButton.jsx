@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { UseApi } from '../Helpers/UseApi';
-import ModalClima from './ClimateModal';
+import ModalClima from './wheaterModal';
 import ModalError from './ErrorToast';
 import Loading from './loading';
 

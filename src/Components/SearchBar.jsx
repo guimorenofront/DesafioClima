@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import SearchButton from './SearchButton';
 import '../Styles/SearchPage.scss'
-import Modal from './ClimateModal';
+import Modal from './wheaterModal';
 function SearchBar() {
     const [value, setValue] = useState('')
   return (
